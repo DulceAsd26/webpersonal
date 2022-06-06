@@ -30,3 +30,17 @@
         </li>
     </ul>
 </div>
+<!-- Cabecera -->
+<header class="masthead" 
+    style="background-image: url('{% block background %}{% endblock %}')">
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <div class="site-heading">
+          {% block headers %}{% endblock %}
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
